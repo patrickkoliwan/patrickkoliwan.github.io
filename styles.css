@@ -423,7 +423,7 @@ margin: 1rem;
 }
 
 .whats_on_slider{
-    max-width: 30rem;
+    max-width: 29rem;
     position: relative;
     margin: auto;
 }
@@ -656,8 +656,7 @@ margin: 1rem;
 .eat_shop_menu_gallery{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .short_term_stay{
@@ -889,4 +888,106 @@ justify-content: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media(max-width: 415px){
+    html{
+        font-size:45%;
+    }
+    .banner h1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .banner p{
+        font-size: 2rem;        
+    }
+    .banner button{
+        width: 15rem;
+        height: 4rem;
+        font-size: 2rem;
+    }
+    .sidebar{
+        width: 100%;
+        right: -100%;
+    }
+
+    .change .hamburger_menu{
+        right: 50rem;
+    }
+
+    .main_content_wrapper{
+        display: block;        
+        background-color: #effbff;
+        }
+
+    .menu_link{
+        font-size: 3.5rem;
+    }
+    .section_header i{
+        margin: 1rem;
+    }
+    .section_title{
+        font-size: 3rem;
+    }
+    .menu_line1{
+    flex-direction: column;
+    }
+    .menu_line2{
+        flex-direction: column;
+        }
+    .section_menu{
+        display: flex;
+    }
+    .reporting_menu_list_item{
+        margin-bottom: 3rem;
+    }
+    .section_menu{
+        margin-left: 1rem;
+    }
+    .lifestyle_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .whats_on_slider{
+        max-width: 50rem;
+    }
+    .lifestyle_menu_image img{
+        width: 25rem;
+    }
+    .lifestyle_menu_title{
+        height: 3rem;
+        width: 25rem;        
+        font-size: 2rem;
+        
+    }
+    .event_calendar{
+        width: 50rem;
+        height: auto;        
+        margin: 1rem;
+    }         
+    .calendar_link{
+        font-size: 1.8rem;
+        margin: 2rem;
+        color: #004687;        
+    }    
+    .event_list li{
+        padding: 1.5rem;
+    }
+    .eat_shop_menu_gallery_top{
+        display: flex;         
+    }
+    
+    .eat_shop_menu_gallery_middle{
+        display: flex; 
+         
+    }
+    
+    .eat_shop_menu_gallery_bottom{
+        display: flex;           
+    }
+    
+    .eat_shop_menu_gallery{
+        display: block;            
+    }
+    
 }
