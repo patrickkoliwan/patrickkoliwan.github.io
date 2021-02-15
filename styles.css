@@ -899,6 +899,12 @@ justify-content: center;
 }
 
 @media(max-width: 415px){
+    .left_spacer{
+        display: none;
+    }
+    .right_spacer{
+        display: none;
+    }
     html{
         font-size:45%;
     }
@@ -1011,7 +1017,7 @@ justify-content: center;
         justify-content: center;
     }
     .stay_menu_img{
-        width: 18rem;
+        width: 16rem;
     }
     .health_menu_img{
         width: 16rem;
