@@ -888,7 +888,8 @@ justify-content: center;
 
 .footer{
     display: flex;
-    align-items: center;    
+    align-items: center; 
+    background-color:rgba(205, 225, 235, 0.8);  
 }
 .footer_menu{
     display: flex;
@@ -1058,10 +1059,20 @@ justify-content: center;
         margin: 1rem;
     }
     .safety_menu_img{
-        width: 18rem;
+        width: 12rem;
     }
     .safety_content .safety_menu{        
         justify-content: center;;
     }
-    
+    .footer_link{
+        font-size: 1.2rem;
+        margin: 1rem;        
+    }
+    .footer_menu{
+        text-align: center;
+        margin: 1rem;
+    }
+    .footer_img{
+        margin: 1rem;
+    }
 }
