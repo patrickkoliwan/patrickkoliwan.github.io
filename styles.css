@@ -1085,5 +1085,8 @@ justify-content: center;
     }
     .footer_img{
         margin: 1rem;
+    }    
+    .socialmedia{        
+        bottom:10rem;        
     }
 }
