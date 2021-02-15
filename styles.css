@@ -952,6 +952,9 @@ justify-content: center;
     .section_menu{
         display: flex;
     }
+    .reporting_menu{
+        width: 24rem;
+    }
     .reporting_menu_list_item{
         margin-bottom: 3rem;
     }
@@ -992,8 +995,7 @@ justify-content: center;
     }
     
     .eat_shop_menu_gallery_middle{
-        display: flex; 
-         
+        display: flex;          
     }
     
     .eat_shop_menu_gallery_bottom{
@@ -1060,6 +1062,7 @@ justify-content: center;
     .safety_menu{
         flex-wrap: wrap;
         justify-content: flex-start;
+        margin-bottom:1.8rem;
     }
     .safety_menu_item{
         margin: 1rem;
