@@ -742,6 +742,9 @@ margin: 1rem;
 .health_menu_item{
     position: relative;
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -792,7 +795,6 @@ margin: 1rem;
     width: 80rem;
     display: flex;
     justify-content: space-between;
-
 }
 
 .transport_content{
@@ -886,8 +888,13 @@ justify-content: center;
 
 .footer{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: center;    
+}
+.footer_menu{
+    display: flex;
+}
+.footer_link{
+    margin: 2rem;
 }
 
 @media(max-width: 415px){
@@ -988,6 +995,73 @@ justify-content: center;
     
     .eat_shop_menu_gallery{
         display: block;            
+    }
+    .stay_menu{
+        display: block;
+    }
+    .buyrent_menu_icon{
+        margin:1rem;
+    }
+    .short_stay_title{
+        display: none;
+    }
+    .short_stay_menu_icon{
+        display: flex;
+        justify-content: center;
+    }
+    .stay_menu_img{
+        width: 18rem;
+    }
+    .health_menu_img{
+        width: 16rem;
+        margin: 1rem;
+    }
+    .health_menu_item{
+        width: 16rem;
+        margin: 1rem;        
+    }
+    .health_content .health_menu{
+        justify-content: center;;
+    }
+    .transport_menu{
+         width: 80rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+    .transport_menu_item{
+        margin: 1rem;        
+    }
+    .transport_content .transport_menu{
+        justify-content: center;
+    }
+    .education_menu_item{
+        width: 22rem;
+    }
+    .education_menu_img{
+        width: 22rem;
+    }
+    .education_caption{
+        width: 22rem;
+    }
+    .education_menu{
+        flex-wrap: wrap;
+    }
+    .education_content .education_menu{
+        justify-content: center;;
+    }
+    .safety_menu{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .safety_menu_item{
+        margin: 1rem;
+    }
+    .safety_menu_img{
+        width: 18rem;
+    }
+    .safety_content .safety_menu{        
+        justify-content: center;;
     }
     
 }
